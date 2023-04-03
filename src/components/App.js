@@ -12,6 +12,10 @@ function App() {
         <label htmlFor="input1">Input1</label>
         <input type="text" id={'input1'} required name={'name'}/>
       </PopupWithForm>
+        <PopupWithForm name={'formulario2'} errors={errors} setErrors={setErrors}>
+            <label htmlFor="input1">Input1</label>
+            <input type="text" id={'input1'} required name={'name'}/>
+        </PopupWithForm>
     </div>
   );
 }
